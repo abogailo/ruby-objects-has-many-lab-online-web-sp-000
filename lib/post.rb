@@ -15,7 +15,7 @@ class Post
       nil
     end
   end
-  
+
   def self.all
     @@all
   end
