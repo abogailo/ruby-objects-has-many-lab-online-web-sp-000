@@ -6,7 +6,6 @@ class Post
    def initialize(title)
     @title = title
     @@all << self
-    @@all
   end
 
    def author_name
@@ -16,5 +15,8 @@ class Post
       nil
     end
   end
-  @@all
+  
+  def self.all
+    @@all
+  end
 end
