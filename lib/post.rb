@@ -14,4 +14,5 @@ class Post
       nil
     end
   end
+  @@all
 end
