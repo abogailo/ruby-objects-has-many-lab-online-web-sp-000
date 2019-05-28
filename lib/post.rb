@@ -3,12 +3,12 @@ class Post
 
     @@all = []
 
-   def initialize(title)
+  def initialize(title)
     @title = title
     @@all << self
   end
 
-   def author_name
+  def author_name
     if author
       self.author.name
     else
